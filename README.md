@@ -91,12 +91,30 @@ flutter run
 
 ## ✨ Features Implemented
 
--   [x] Authentication (Login / Register / Logout with GetX)
--   [x] Display **Horoscope** based on birth date
--   [x] Display **Chinese Zodiac** based on birth year
--   [x] Data storage using **GetStorage** & **SharedPreferences**
--   [x] Image upload with **Image Picker**
--   [ ] (Optional) Extra features
+- [x] Authentication  
+  - Login  
+  - Register  
+  - Logout (with GetX)
+
+- [x] Profile Management  
+  - View profile  
+  - Create & Update profile (name, bio, birth date, zodiac, horoscope, profile picture)
+
+- [x] Horoscope  
+  - Display Western Horoscope based on birth date
+
+- [x] Chinese Zodiac  
+  - Display Chinese Zodiac based on birth year
+
+- [x] Data Storage  
+  - Local storage using GetStorage  
+  - Persistent storage using SharedPreferences
+
+- [x] Image Upload  
+  - Upload profile picture using Image Picker
+
+- [ ] (Optional) Extra Features  
+  - e.g. Dark Mode, Notifications, Profile Editing enhancements
 
 ------------------------------------------------------------------------
 
