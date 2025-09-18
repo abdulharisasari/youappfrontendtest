@@ -109,8 +109,8 @@ flutter run
 
 ## 📧 Contact
 
--   Name: **Abdul Haris Asari**\
--   Email: **abdulharisasari@gmail.com**\
+-   Name: **Abdul Haris Asari**
+-   Email: **abdulharisasari@gmail.com**
 -   YouApp Profile: **youapp.me/abdulharisasari**
 
 ------------------------------------------------------------------------
