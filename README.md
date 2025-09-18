@@ -44,17 +44,48 @@ flutter run
 ## 📂 Project Structure
 
     lib/
-     ├── main.dart                # Entry point
-     ├── app/
-     │   ├── bindings/            # Dependency injection with GetX
-     │   ├── controllers/         # GetX controllers (logic)
-     │   ├── data/                # API services, models
-     │   ├── routes/              # Application routes
-     │   ├── ui/                  # Views & widgets
-     │   └── utils/               # Helper functions
-    assets/
-     ├── images/                  # PNG/JPG images
-     └── svg/                     # SVG icons
+    ├── core/                  # Konstanta & utilitas global
+    │   ├── assets.dart
+    │   ├── themes.dart
+    │   └── utils.dart
+    │
+    ├── data/                  # Data layer (models, repository, API)
+    │   ├── models/
+    │   │   ├── auth_model.dart
+    │   │   ├── profile_model.dart
+    │   │   └── response_api.dart
+    │   ├── providers/         # API providers (Dio/HTTP)
+    │   └── repository/
+    │       └── user_repository.dart
+    │
+    ├── modules/               # Feature-based modules
+    │   ├── home/
+    │   │   ├── bindings/
+    │   │   ├── controllers/
+    │   │   └── views/
+    │   ├── login/
+    │   │   ├── bindings/
+    │   │   ├── controllers/
+    │   │   └── views/
+    │   ├── register/
+    │   │   ├── bindings/
+    │   │   ├── controllers/
+    │   │   └── views/
+    │   └── profile/
+    │       ├── bindings/
+    │       ├── controllers/
+    │       └── views/
+    │
+    ├── routes/                # App routing
+    │   ├── app_pages.dart
+    │   └── app_routes.dart
+    │
+    ├── widgets/               # Reusable widgets/components
+    │   └── custom_button.dart
+    │   └── custom_input.dart
+    │
+    └── main.dart              # Entry point
+        
 
 ------------------------------------------------------------------------
 
@@ -79,8 +110,8 @@ flutter run
 ## 📧 Contact
 
 -   Name: **Abdul Haris Asari**\
--   Email: **\[abdulharisasari@gmail.com\]**\
--   YouApp Profile: **\[youapp.me/abdulharisasari\]**
+-   Email: **abdulharisasari@gmail.com**\
+-   YouApp Profile: **youapp.me/abdulharisasari**
 
 ------------------------------------------------------------------------
 
